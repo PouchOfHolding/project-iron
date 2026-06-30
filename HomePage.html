@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pouch Of Holding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        
+<nav>
+    <a href="HomePage.html" class="nav-link">Pouch Of Holding</a> 
+    
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">pagina2 ▾</button>
+        
+        <div id="myDropdown" class="dropdown-content">
+            
+            <div class="dropdown-submenu">
+                <button onclick="toggleSubmenu(event, 'sub1')" class="sub-dropbtn">Sub Link 1 ▸</button>
+                <div id="sub1" class="dropdown-submenu-content">
+                    <a href="deep_page_1.html">Deep Link 1</a>
+                    <a href="deep_page_2.html">Deep Link 2</a>
+                    <a href="deep_page_1.html">Deep Link 3</a>
+                    <a href="deep_page_2.html">Deep Link 4</a>
+                    <a href="deep_page_1.html">Deep Link 5</a>
+                    <a href="deep_page_2.html">Deep Link 6</a>
+                </div>
+            </div>
+
+            <div class="dropdown-submenu">
+                <button onclick="toggleSubmenu(event, 'sub2')" class="sub-dropbtn">Sub Link 2 ▸</button>
+                <div id="sub2" class="dropdown-submenu-content">
+                    <a href="deep_page_3.html">Deep Link 3</a>
+                    <a href="deep_page_4.html">Deep Link 4</a>
+                </div>
+            </div>
+
+            <a href="normal_page.html">Just a normal link</a>
+            
+        </div>
+    </div>
+
+    <a href="pagina3.html" class="nav-link">pagina3</a>
+</nav>
+
+<div class="site-title">Pouch Of Holding</div>
+        <div class="right-menu">
+            <a href="sign_in.html" class="contact-link">sign_in</a>
+            <a href="sign_up.html" class="contact-link">sign_up</a>
+        </div>
+        
+    </div>
+
+    <div class="main-content">
+        <h1> </h1>
+        <p> </p>
+        
+        <div class="search-container">
+            <form action="/search" method="get" class="search-form">
+                <input type="text" name="q" placeholder="Search for a Commander" class="search-input">
+              
+        </div>
+        
+        <br><br>
+        
+        <p> </p>
+        <br><br>
+        <p> </p>
+        <br>
+        <p> </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
